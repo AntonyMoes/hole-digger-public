@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873155a96d55429ea5dd907aa3cd78d5, type: 3}
+  m_Name: SetRecipeWindowWorkConfig
+  m_EditorClassIdentifier: 
+  _configId: 240689436
+  UIPrefab: {fileID: 5534806062931343788, guid: a1b88889c270de64cb737e46717d4e9a, type: 3}
+  _uiLayer: 1

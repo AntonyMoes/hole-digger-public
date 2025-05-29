@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d017d9cd21340a7846e55e64d4fbac2, type: 3}
+  m_Name: OreGenerationConfig
+  m_EditorClassIdentifier: 
+  _configId: -1306074717
+  _baseChance: 0.04
+  _values:
+  - oreConfig: {fileID: 11400000, guid: a481012db9875294291da419ca092c87, type: 2}
+    weight: 1
+  - oreConfig: {fileID: 11400000, guid: 17421e6ae6337dc43ab243c01be1cff1, type: 2}
+    weight: 1
+  - oreConfig: {fileID: 11400000, guid: 97b7533bc9b58a447ba12277b73ecc93, type: 2}
+    weight: 1
+  - oreConfig: {fileID: 11400000, guid: cdbea59b74c84a844972353c8a459f0b, type: 2}
+    weight: 1

@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f740d19f3df8491ab633cb9266d3855f, type: 3}
+  m_Name: CraftingTutorialConfig
+  m_EditorClassIdentifier: 
+  _configId: 1080522434
+  _name: crafting
+  _uiEntryPoint: InventoryWindow
+  _condition:
+    rid: 3567694400595165190
+  _priority: 0
+  _ignoreComplete: 0
+  _instantlyMarkComplete: 0
+  _steps:
+  - _finishCondition:
+      rid: 3567694400595165193
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Melting/Background/SlotsScroll/Slots/InventoryCraftingSlot(Clone)/Back/SelectButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 150, y: 0}
+        _text: Open melting menu
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Melting/Background/SlotsScroll/Slots/InventoryCraftingSlot(Clone)/Back/SelectButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: 0}
+        _clickThroughHole: 1
+  - _finishCondition:
+      rid: 3567694400595165193
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/SetRecipeWindow(Clone)/Window/Contents/{RecipeItem(Clone)}/[[SelectButton]]
+              _selectors:
+              - rid: 3567694400595165194
+              _follow: 0
+          _pivot: {x: 0.5, y: 0}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: 100}
+        _text: Select the recipe
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/SetRecipeWindow(Clone)/Window/Contents/{RecipeItem(Clone)}/[[SelectButton]]
+              _selectors:
+              - rid: 3567694400595165195
+              _follow: 0
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: 0}
+        _clickThroughHole: 1
+  - _finishCondition:
+      rid: 3567694400595165193
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Melting/Background/SlotsScroll/Slots/InventoryCraftingSlot(Clone)
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 150, y: 0}
+        _text: 'You can collect the result
+
+          anytime later when its ready'
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Melting/Background/SlotsScroll/Slots/InventoryCraftingSlot(Clone)
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 1
+            _value:
+              _value: {x: 80, y: 40}
+              _useAsOffset: 1
+          _position: {x: 0, y: 20}
+        _clickThroughHole: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 3567694400595165190
+      type: {class: AndConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 0
+        _values:
+        - rid: 3567694400595165191
+        - rid: 3567694400595165192
+    - rid: 3567694400595165191
+      type: {class: BoolDataConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 1
+        _dataConfig: {fileID: 11400000, guid: f02e9cf97a30196448c29908139977ff, type: 2}
+    - rid: 3567694400595165192
+      type: {class: CanCraftAnythingConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 0
+        _craftingGroup: {fileID: 11400000, guid: 202c6217cad2ff54095782a317fd1bd5, type: 2}
+    - rid: 3567694400595165193
+      type: {class: HiderClickStepFinishCondition, ns: _Game.Scripts.Data.Configs.Tutorial.StepFinishConditions, asm: _Game}
+      data:
+        _clickHiderHole: 1
+    - rid: 3567694400595165194
+      type: {class: ActiveElementSelector, ns: _Game.Scripts.Data.Configs.Tutorial.PathElementSelectors, asm: _Game}
+      data:
+        _active: 1
+    - rid: 3567694400595165195
+      type: {class: ActiveElementSelector, ns: _Game.Scripts.Data.Configs.Tutorial.PathElementSelectors, asm: _Game}
+      data:
+        _active: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d541549237104d538e47423a897c459e, type: 3}
+  m_Name: CopperOreConfig
+  m_EditorClassIdentifier: 
+  _configId: 2034239682
+  _drop: {fileID: 11400000, guid: f333b002b7fbf364abdae0e07ec81565, type: 2}
+  _dropPrefab: {fileID: 2972407406051893506, guid: 8fec3865ff66ee549ab37c2074fbc339, type: 3}
+  _cellPrefab: {fileID: 7184639221809470215, guid: d8c5fa6d0240a3f4789e8fadf375c583, type: 3}
+  _strikesToBreak: 2

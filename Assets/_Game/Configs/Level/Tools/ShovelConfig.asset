@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd0449fdb44467eae1f8dc340237d1c, type: 3}
+  m_Name: ShovelConfig
+  m_EditorClassIdentifier: 
+  _configId: 936308881
+  _logName: shovel
+  _toolView: {fileID: 408491479264491480, guid: d71dccf68076e4f44a76a440cffa89d7, type: 3}
+  _useSounds:
+  - {fileID: 11400000, guid: c58acc00c1c9e7841a0876c19deff66f, type: 2}
+  - {fileID: 11400000, guid: d1a7273e5e29fe94cb4c3cbd0162927a, type: 2}
+  - {fileID: 11400000, guid: 4eccbf32def0693448b51e57e89fc9dc, type: 2}
+  - {fileID: 11400000, guid: a3bb3595ba315d14ba438a6a37f06f6c, type: 2}
+  - {fileID: 11400000, guid: b170e4e4050b1aa408f5481784b11054, type: 2}
+  _levels:
+  - _settings:
+      _mineAdjacentChance: 0
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.1
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.2
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.3
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.4
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.5
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.6
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.7
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.8
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 0.9
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}
+  - _settings:
+      _mineAdjacentChance: 1
+    _toolPrefab: {fileID: 534962390907225544, guid: 7572a971761c7044c9e0b163c58985bc, type: 3}
+    _toolIcon: {fileID: 21300000, guid: d52ff3c46a53b594ea9108bf3fbb140f, type: 3}

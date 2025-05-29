@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391a6768fb9f4a35bf6897e9f97c93e0, type: 3}
+  m_Name: TutorialsConfig
+  m_EditorClassIdentifier: 
+  _configId: 97868298
+  _tutorials:
+  - {fileID: 11400000, guid: 640d7db20fc8fe7419f3f302f56a0f06, type: 2}
+  - {fileID: 11400000, guid: 70794ad6633f43c4ebe9961c39aa43be, type: 2}
+  - {fileID: 11400000, guid: 5efeb891857186741a1b1dc12ef123c5, type: 2}
+  - {fileID: 11400000, guid: ce0e439f367253c4d96a5524497a5431, type: 2}
+  - {fileID: 11400000, guid: 837d91f22b97b6b46b8059a87c3b7608, type: 2}
+  - {fileID: 11400000, guid: 6109b75ae3c589a4393ae679eecd5b1f, type: 2}
+  - {fileID: 11400000, guid: f1e266d5fd8dd754091f1cea3a9e9013, type: 2}
+  _tutorialHiderPrefab: {fileID: 2210643125773275331, guid: 6442f870d82af33498596c8a71f74653, type: 3}
+  _tutorialTextPrefab: {fileID: -8547251084139550972, guid: d1aad5f6f1e8c37429ba9cd8833ec6a3, type: 3}

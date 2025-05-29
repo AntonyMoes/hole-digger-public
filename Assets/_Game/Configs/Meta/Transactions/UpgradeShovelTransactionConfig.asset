@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0f0bb49ac6439fac505ce0ae77729a, type: 3}
+  m_Name: UpgradeShovelTransactionConfig
+  m_EditorClassIdentifier: 
+  _configId: 468588062
+  _logReason: upgrade
+  _leveledEntityConfig: {fileID: 11400000, guid: 19e07444813e9fe428ba1311d8a80ad8, type: 2}
+  _prices:
+  - rid: 1668847075930407079
+  - rid: 1668847075930407081
+  - rid: 1668847075930407083
+  - rid: 1668847075930407085
+  - rid: 1668847075930407087
+  - rid: 1668847075930407089
+  - rid: 1668847075930407091
+  - rid: 1668847075930407094
+  - rid: 1668847075930407096
+  - rid: 1668847075930407098
+  references:
+    version: 2
+    RefIds:
+    - rid: 1668847075930407079
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407080
+    - rid: 1668847075930407080
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -500
+    - rid: 1668847075930407081
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407082
+    - rid: 1668847075930407082
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -1000
+    - rid: 1668847075930407083
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407084
+    - rid: 1668847075930407084
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -2000
+    - rid: 1668847075930407085
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407086
+    - rid: 1668847075930407086
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -4000
+    - rid: 1668847075930407087
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407088
+    - rid: 1668847075930407088
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -8000
+    - rid: 1668847075930407089
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407090
+    - rid: 1668847075930407090
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -16000
+    - rid: 1668847075930407091
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407093
+    - rid: 1668847075930407093
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -32000
+    - rid: 1668847075930407094
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407095
+    - rid: 1668847075930407095
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -64000
+    - rid: 1668847075930407096
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407097
+    - rid: 1668847075930407097
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -128000
+    - rid: 1668847075930407098
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407099
+    - rid: 1668847075930407099
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: -256000

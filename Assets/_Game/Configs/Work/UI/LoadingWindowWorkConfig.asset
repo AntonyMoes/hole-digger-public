@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b792145386e40cca3224de0a03414d8, type: 3}
+  m_Name: LoadingWindowWorkConfig
+  m_EditorClassIdentifier: 
+  _configId: 485215988
+  UIPrefab: {fileID: 5767726923331957384, guid: 86da818a352ddfd489118dec8c6dad70, type: 3}
+  _uiLayer: 1
+  _minLoadingDuration: 0.2

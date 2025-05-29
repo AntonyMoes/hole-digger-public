@@ -1,0 +1,952 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17766941751e41b7b0b8e89d91a53f54, type: 3}
+  m_Name: OreMeshConfig
+  m_EditorClassIdentifier: 
+  _configId: -1117052372
+  _mesh: {fileID: -5495902117074765545, guid: fe523c767fe056d4891ccf653c26176d, type: 3}
+  _pointData:
+  - index: 0
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0, y: 0, z: 0}
+  - index: 3
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0, y: 0, z: 0}
+  - index: 4
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0, y: 0, z: 0}
+  - index: 12
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 14
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: 0, y: 0, z: 0}
+  - index: 16
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: 1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 24
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: 0, y: 0, z: 0}
+  - index: 25
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0
+    offset: {x: 0, y: 0, z: 0}
+  - index: 26
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0, y: 0, z: 0}
+  - index: 28
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0, y: 0, z: 0}
+  - index: 32
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 34
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0, y: 0, z: 0}
+  - index: 36
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0, z: 0}
+  - index: 39
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0
+    offset: {x: 0, y: 0, z: 0}
+  - index: 41
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0, y: 0, z: 0}
+  - index: 44
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0, z: 0}
+  - index: 48
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 49
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0, z: 0}
+  - index: 53
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: 1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 58
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: 0, z: 0}
+  - index: 59
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 61
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0, z: 0}
+  - index: 64
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 66
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: 0, z: 0}
+  - index: 68
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 69
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: 0, y: 0, z: 0}
+  - index: 73
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0, z: 0}
+  - index: 75
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: 1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 77
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: 0, y: 0, z: 0}
+  - index: 78
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: 0, z: 0}
+  - index: 90
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0, y: 0, z: 0}
+  - index: 91
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 92
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0, y: 0, z: 0}
+  - index: 93
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 95
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: 0, z: 0}
+  - index: 97
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: 0, y: 0, z: 0}
+  - index: 100
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 101
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0, z: 0}
+  - index: 105
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: 0, y: 0, z: 0}
+  - index: 106
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: 0, y: 0, z: 0}
+  - index: 107
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 111
+    fromPoint: {x: -1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 112
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: 0, z: 0}
+  - index: 114
+    fromPoint: {x: -1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5
+    offset: {x: 0, y: 0, z: 0}
+  - index: 116
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 117
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: 0, z: 0}
+  - index: 144
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: 0, z: 0}
+  - index: 145
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 150
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 151
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: 0, y: 0, z: 0}
+  - index: 158
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 159
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: 0, z: 0}
+  - index: 176
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0, z: 0}
+  - index: 177
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 186
+    fromPoint: {x: -1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 187
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: 0, z: 0}
+  - index: 190
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0, y: 0, z: 0}
+  - index: 191
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0, y: 0, z: 0}
+  - index: 192
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 197
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 198
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0, y: 0, z: 0}
+  - index: 227
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 228
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0, z: 0}
+  - index: 259
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: 0, y: 0, z: 0}
+  - index: 260
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 263
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 265
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: 0, y: 0, z: 0}
+  - index: 269
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 270
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: 0, y: 0, z: 0}
+  - index: 287
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 288
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: 0, y: 0, z: 0}
+  - index: 289
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: 0, y: 0, z: 0}
+  - index: 290
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 293
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: 0, y: 0, z: 0}
+  - index: 294
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 304
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0, y: 0, z: 0}
+  - index: 305
+    fromPoint: {x: -1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 307
+    fromPoint: {x: -1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5
+    offset: {x: 0, y: 0, z: 0}
+  - index: 316
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 318
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0, y: 0, z: 0}
+  - index: 328
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0, y: 0, z: 0}
+  - index: 329
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0, y: 0, z: 0}
+  - index: 336
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 337
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0, y: 0, z: 0}
+  - index: 338
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0, y: 0, z: 0}
+  - index: 339
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 344
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 345
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0, y: 0, z: 0}
+  - index: 346
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0, y: 0, z: 0}
+  - index: 347
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 384
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 385
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0, y: 0, z: 0}
+  - index: 388
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}
+  - index: 389
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0, y: 0, z: 0}
+  - index: 397
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0, y: 0, z: 0}
+  - index: 398
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 401
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0, y: 0, z: 0}
+  - index: 402
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}
+  - index: 418
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0, y: 0, z: 0}
+  - index: 420
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 421
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0, z: 0}
+  - index: 431
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0, y: 0, z: 0}
+  - index: 432
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 441
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 442
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0, z: 0}
+  - index: 445
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 446
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0, y: 0, z: 0}
+  - index: 453
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: 0, y: 0, z: 0}
+  - index: 454
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 461
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0, y: 0, z: 0}
+  - index: 462
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 475
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 476
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0, y: 0, z: 0}
+  - index: 483
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 484
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0, z: 0}
+  - index: 493
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0, z: 0}
+  - index: 494
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 497
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0, z: 0}
+  - index: 498
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 507
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 508
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: 0, y: 0, z: 0}
+  - index: 515
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: 0, z: 0}
+  - index: 516
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 519
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 520
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: 0, z: 0}
+  - index: 521
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 524
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: 0, z: 0}
+  - index: 525
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: 0, z: 0}
+  - index: 528
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 530
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: 0, z: 0}
+  - index: 532
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 1
+    offset: {x: 0, y: 0, z: 0}
+  - index: 533
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0, y: 0, z: 0}
+  - index: 545
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0, y: 0, z: 0}
+  - index: 546
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}
+  - index: 549
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0, z: 0}
+  - index: 550
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0
+    offset: {x: 0, y: 0, z: 0}
+  - index: 552
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0, y: 0, z: 0}
+  - index: 563
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 564
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: 0, z: 0}
+  - index: 573
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0, z: 0}
+  - index: 574
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 591
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 592
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0, z: 0}
+  - index: 611
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}
+  - index: 612
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0, y: 0, z: 0}
+  - index: 617
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: 0, z: 0}
+  - index: 618
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 625
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 626
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 638
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 639
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 643
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 644
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 647
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 652
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 653
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 656
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 662
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.5096049
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 663
+    fromPoint: {x: 1, y: 1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.6265445
+    offset: {x: 0, y: -0.050000012, z: -0.050000012}
+  - index: 664
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.3000931
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 665
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: 1, y: 1, z: 1}
+    distance: 0.41593397
+    offset: {x: -0.050000012, y: -0.04840356, z: 0}
+  - index: 680
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 681
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 683
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 684
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 695
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.33611333
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 696
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: -1, y: 1, z: 1}
+    distance: 0.1988101
+    offset: {x: 0.050000012, y: 0, z: -0.050000012}
+  - index: 702
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 703
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 709
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}
+  - index: 714
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}
+  - index: 716
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.7558409
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 717
+    fromPoint: {x: -1, y: -1, z: 1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.6386423
+    offset: {x: 0, y: 0.050000012, z: -0.050000012}
+  - index: 725
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.55901
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 726
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.6647723
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 729
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.38601756
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 730
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: -1, z: 1}
+    distance: 0.2729127
+    offset: {x: 0.050000012, y: 0.050000012, z: 0}
+  - index: 735
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.36234528
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 736
+    fromPoint: {x: 1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: 1}
+    distance: 0.26899868
+    offset: {x: -0.050000012, y: 0.050000012, z: 0}
+  - index: 741
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 742
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 743
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.523414
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 744
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: 1, y: -1, z: -1}
+    distance: 0.39762932
+    offset: {x: 0, y: 0.050000012, z: 0.050000012}
+  - index: 759
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.6289339
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 761
+    fromPoint: {x: 1, y: 1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.7550944
+    offset: {x: 0, y: -0.04840356, z: 0.050000012}
+  - index: 765
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.76209927
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}
+  - index: 766
+    fromPoint: {x: -1, y: -1, z: -1}
+    toPoint: {x: -1, y: 1, z: -1}
+    distance: 0.62111634
+    offset: {x: 0.050000012, y: 0, z: 0.050000012}

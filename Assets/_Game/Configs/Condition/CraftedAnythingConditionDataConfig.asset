@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b126680dc24d599c2268ac9e501497, type: 3}
+  m_Name: CraftedAnythingConditionDataConfig
+  m_EditorClassIdentifier: 
+  _configId: -411181034
+  _craftingGroups:
+  - {fileID: 11400000, guid: 202c6217cad2ff54095782a317fd1bd5, type: 2}

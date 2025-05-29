@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f740d19f3df8491ab633cb9266d3855f, type: 3}
+  m_Name: DigResourceTutorialConfig
+  m_EditorClassIdentifier: 
+  _configId: 1096449680
+  _name: digResource
+  _uiEntryPoint: LevelScreen
+  _condition:
+    rid: 3567694400595165197
+  _priority: 950
+  _ignoreComplete: 0
+  _instantlyMarkComplete: 0
+  _steps:
+  - _finishCondition:
+      rid: 3567694539954847744
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 0
+            _value:
+              _path: 
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 1}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: -700}
+        _text: 'You have found an ore vein!
+
+          Tap it 2 times to mine it'
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: /Level(Clone)/{DigArea}/[[IronOre(Clone)|CopperOre(Clone)|SilverOre(Clone)|GoldOre(Clone)]]
+              _selectors:
+              - rid: 3567694407242088449
+              _follow: 0
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 1
+            _value:
+              _value: {x: 180, y: 180}
+              _useAsOffset: 0
+          _position: {x: 0, y: 0}
+        _clickThroughHole: 1
+  - _finishCondition:
+      rid: 3567694539954847748
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 0
+            _value:
+              _path: 
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 1}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: -700}
+        _text: 'And tap on the dropped
+
+          resource to collect it'
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: /Level(Clone)/{Drops}/[[IronDrop(Clone)|CopperDrop(Clone)|SilverDrop(Clone)|GoldDrop(Clone)]]
+              _selectors:
+              - rid: 3567694407242088450
+              _follow: 1
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 1
+            _value:
+              _value: {x: 180, y: 180}
+              _useAsOffset: 0
+          _position: {x: 0, y: 0}
+        _clickThroughHole: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 3567694400595165197
+      type: {class: ResourceUnearthedConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 0
+    - rid: 3567694407242088449
+      type: {class: UnearthedResourceSelector, ns: _Game.Scripts.Data.Configs.Tutorial.PathElementSelectors, asm: _Game}
+      data: 
+    - rid: 3567694407242088450
+      type: {class: ActiveGameObjectSelector, ns: _Game.Scripts.Data.Configs.Tutorial.PathElementSelectors, asm: _Game}
+      data:
+        _active: 1
+    - rid: 3567694539954847744
+      type: {class: DestroyGameObjectFinishCondition, ns: _Game.Scripts.Data.Configs.Tutorial.StepFinishConditions, asm: _Game}
+      data:
+        _referenceElementPath:
+          _path: /Level(Clone)/{DigArea}/[[IronOre(Clone)|CopperOre(Clone)|SilverOre(Clone)|GoldOre(Clone)]]
+          _selectors:
+          - rid: 3567694539954847745
+          _follow: 0
+    - rid: 3567694539954847745
+      type: {class: UnearthedResourceSelector, ns: _Game.Scripts.Data.Configs.Tutorial.PathElementSelectors, asm: _Game}
+      data: 
+    - rid: 3567694539954847748
+      type: {class: CollectDropStepFinishCondition, ns: _Game.Scripts.Data.Configs.Tutorial.StepFinishConditions, asm: _Game}
+      data: 

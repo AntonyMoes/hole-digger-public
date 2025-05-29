@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbc6dc8dab24f44a86c6a3f09adce47, type: 3}
+  m_Name: PickaxeConfig
+  m_EditorClassIdentifier: 
+  _configId: -1724958792
+  _logName: pickaxe
+  _toolView: {fileID: 408491479264491480, guid: ba85f28797380d441b833f427a32c470, type: 3}
+  _useSounds:
+  - {fileID: 11400000, guid: 2f33cf8c1c4a59c4595ad1056a274e29, type: 2}
+  - {fileID: 11400000, guid: e76cf1906087e5c4d95cac31918b5b5d, type: 2}
+  - {fileID: 11400000, guid: 6e13864b975255f4fac8504aa4ef0221, type: 2}
+  - {fileID: 11400000, guid: 56a9e38f2d44ead43a1fa49456d5cc63, type: 2}
+  - {fileID: 11400000, guid: 36341bbf3b3a70f4ab86640c6d266ca9, type: 2}
+  _levels:
+  - _settings:
+      _doubleDropChance: 0
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.05
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.1
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.15
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.2
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.25
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.3
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.35
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.4
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.45
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}
+  - _settings:
+      _doubleDropChance: 0.5
+    _toolPrefab: {fileID: 7613947276315149801, guid: 49774701725823f4bbe96f6bff42b8e6, type: 3}
+    _toolIcon: {fileID: 21300000, guid: 4e3c323c0ef56d146ad69c4c412b42ec, type: 3}

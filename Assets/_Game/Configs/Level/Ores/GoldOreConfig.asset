@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d541549237104d538e47423a897c459e, type: 3}
+  m_Name: GoldOreConfig
+  m_EditorClassIdentifier: 
+  _configId: 1019042342
+  _drop: {fileID: 11400000, guid: 56833001b4cf49a4e97dd49aa16020b6, type: 2}
+  _dropPrefab: {fileID: 8310187846644136625, guid: ebb9b0c09eba2cb49b72f9503634df27, type: 3}
+  _cellPrefab: {fileID: 7184639221809470215, guid: 5b6c1bc546c27a14fa8786a65e657120, type: 3}
+  _strikesToBreak: 2

@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f740d19f3df8491ab633cb9266d3855f, type: 3}
+  m_Name: InventoryFullTutorialConfig
+  m_EditorClassIdentifier: 
+  _configId: -1965318496
+  _name: inventoryFull
+  _uiEntryPoint: LevelScreen
+  _condition:
+    rid: 3567694361156648977
+  _priority: 900
+  _ignoreComplete: 0
+  _instantlyMarkComplete: 0
+  _steps:
+  - _finishCondition:
+      rid: 3567694361156648983
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: BottomButtons/Inventory/InventoryButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 0}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: 200}
+        _text: 'Your inventory is full!
+
+          Open it'
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: BottomButtons/Inventory/InventoryButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 1
+            _value:
+              _value: {x: -10, y: -10}
+              _useAsOffset: 1
+          _position: {x: 0, y: 0}
+        _clickThroughHole: 1
+  - _finishCondition:
+      rid: 3567694361156648981
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Items/ScrollRect_Inventory/Contents/InventoryItem(Clone)/Back/SellButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 0}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: 100}
+        _text: You can sell some items
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Items/ScrollRect_Inventory/Contents/InventoryItem(Clone)/Back/SellButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: 0}
+        _clickThroughHole: 0
+  - _finishCondition:
+      rid: 3567694361156648981
+    _text:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Melting/Background/SlotsScroll/Slots/InventoryCraftingSlot(Clone)/Back/SelectButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 150, y: 0}
+        _text: 'Or you can melt ores
+
+          into more valuable bars'
+    _hider:
+      _enabled: 1
+      _value:
+        _position:
+          _referenceElementPath:
+            _enabled: 1
+            _value:
+              _path: ../../Window/InventoryWindow(Clone)/Window/Melting/Background/SlotsScroll/Slots/InventoryCraftingSlot(Clone)/Back/SelectButton
+              _selectors: []
+              _follow: 0
+          _pivot: {x: 0.5, y: 0.5}
+          _anchorMin: {x: 0.5, y: 0.5}
+          _anchorMax: {x: 0.5, y: 0.5}
+          _sizeOverride:
+            _enabled: 0
+            _value:
+              _value: {x: 0, y: 0}
+              _useAsOffset: 0
+          _position: {x: 0, y: 0}
+        _clickThroughHole: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3567694361156648977
+      type: {class: AndConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 0
+        _values:
+        - rid: 3567694382996652032
+    - rid: 3567694361156648981
+      type: {class: HiderClickStepFinishCondition, ns: _Game.Scripts.Data.Configs.Tutorial.StepFinishConditions, asm: _Game}
+      data:
+        _clickHiderHole: 0
+    - rid: 3567694361156648983
+      type: {class: HiderClickStepFinishCondition, ns: _Game.Scripts.Data.Configs.Tutorial.StepFinishConditions, asm: _Game}
+      data:
+        _clickHiderHole: 1
+    - rid: 3567694382996652032
+      type: {class: AndConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 0
+        _values:
+        - rid: 3567694382996652033
+        - rid: 3567694382996652034
+    - rid: 3567694382996652033
+      type: {class: InventoryFullConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 0
+    - rid: 3567694382996652034
+      type: {class: BoolDataConditionValue, ns: _Game.Scripts.Data.Configs.Condition, asm: _Game}
+      data:
+        _negate: 1
+        _dataConfig: {fileID: 11400000, guid: 1103073aa5d33bd4abc27bab78c8ecbc, type: 2}

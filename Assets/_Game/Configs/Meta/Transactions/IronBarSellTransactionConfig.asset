@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7964eebaf5084090b245d8135d864f71, type: 3}
+  m_Name: IronBarSellTransactionConfig
+  m_EditorClassIdentifier: 
+  _configId: 2063285619
+  _logReason: sell
+  _price:
+    rid: 1668847075930407061
+  _reward:
+    rid: 1668847075930407062
+  _inventoryResource: {fileID: 11400000, guid: aeb7532f966c04045b17a37b3a05596e, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1668847075930407061
+      type: {class: ResourcePrice, ns: _Game.Scripts.Data.Configs.Meta.Price, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407063
+    - rid: 1668847075930407062
+      type: {class: ResourceReward, ns: _Game.Scripts.Data.Configs.Meta.Reward, asm: _Game}
+      data:
+        _value:
+          rid: 1668847075930407064
+    - rid: 1668847075930407063
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: aeb7532f966c04045b17a37b3a05596e, type: 2}
+          _amount: -1
+    - rid: 1668847075930407064
+      type: {class: InPlaceResourceValue, ns: _Game.Scripts.Data.Configs.Meta.ResourceValue, asm: _Game}
+      data:
+        _values:
+        - _resourceConfig: {fileID: 11400000, guid: 99e9b623227e1ee4c83f03a6d0f0980f, type: 2}
+          _amount: 55

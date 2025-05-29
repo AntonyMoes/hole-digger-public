@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf6458a42174e64a04fa9ee25658e97, type: 3}
+  m_Name: CopperDropValueConfig
+  m_EditorClassIdentifier: 
+  _configId: 753403000
+  _value:
+    _values:
+    - _resourceConfig: {fileID: 11400000, guid: a761569bdb56a94469f267e0ff14a59d, type: 2}
+      _amount: 1

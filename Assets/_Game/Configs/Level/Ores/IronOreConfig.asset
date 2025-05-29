@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d541549237104d538e47423a897c459e, type: 3}
+  m_Name: IronOreConfig
+  m_EditorClassIdentifier: 
+  _configId: -2079671389
+  _drop: {fileID: 11400000, guid: 23e917318307bf742b1312cfeec308c7, type: 2}
+  _dropPrefab: {fileID: 1827420737628801271, guid: 994fbb0a932c73942a530a8c043f276e, type: 3}
+  _cellPrefab: {fileID: 7184639221809470215, guid: 4a64ddf805d8bf443a513674988dedce, type: 3}
+  _strikesToBreak: 2

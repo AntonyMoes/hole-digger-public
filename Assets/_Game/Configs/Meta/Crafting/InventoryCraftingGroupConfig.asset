@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba67741049c4c0d8d86a82b7b27883d, type: 3}
+  m_Name: InventoryCraftingGroupConfig
+  m_EditorClassIdentifier: 
+  _configId: -1729277006
+  _recipes:
+  - {fileID: 11400000, guid: 77b7ea3e691edd44e97680a2a5522a15, type: 2}
+  - {fileID: 11400000, guid: d8f1a24c62aca8b42a379d08e8311e75, type: 2}
+  - {fileID: 11400000, guid: c197bfed8ca07aa42a646e06d6b38cc9, type: 2}
+  - {fileID: 11400000, guid: 80e6e843acde69d44bd2e8e5c9c018a3, type: 2}
+  _crafterCount: 3

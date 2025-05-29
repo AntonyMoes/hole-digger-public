@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b662addb5f54132883b0c210918216d, type: 3}
+  m_Name: SoldAnythingConditionDataConfig
+  m_EditorClassIdentifier: 
+  _configId: 1883097746
+  _trackedTransactions:
+  - {fileID: 11400000, guid: 4d3d8971105869747999ddc3a81cc0cb, type: 2}
+  - {fileID: 11400000, guid: d3c5881772edb4e46aaa6b13e1619d24, type: 2}
+  - {fileID: 11400000, guid: a72e2651b525276449ec32d232b3d119, type: 2}
+  - {fileID: 11400000, guid: 7476709bd3da2764091af344a3a6f108, type: 2}
+  - {fileID: 11400000, guid: 6e88ce71a07914844b126f2e35a909df, type: 2}
+  - {fileID: 11400000, guid: d1feccec2b76fc0498dff136ec3fe91d, type: 2}
+  - {fileID: 11400000, guid: 948d31acd0855124393d4c3e14dd9a73, type: 2}
+  - {fileID: 11400000, guid: 58c33d216c817ce4a916cb41ba41bbfc, type: 2}

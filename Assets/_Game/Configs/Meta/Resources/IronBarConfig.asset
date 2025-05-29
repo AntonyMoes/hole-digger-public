@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4820d20270499ca763d5c7c5a0958e, type: 3}
+  m_Name: IronBarConfig
+  m_EditorClassIdentifier: 
+  _configId: 1530902876
+  _sprite: {fileID: 21300000, guid: 617e0ba1c45df354d842046487e7e225, type: 3}
+  _name: IronBar
+  _logName: ironBar
+  _resourceType:
+    rid: 1668847044188438562
+  references:
+    version: 2
+    RefIds:
+    - rid: 1668847044188438562
+      type: {class: InventoryItemType, ns: _Game.Scripts.Data.Configs.Meta.ResourceType, asm: _Game}
+      data:
+        _inventorySize: 1
